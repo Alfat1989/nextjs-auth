@@ -4,8 +4,8 @@ import styles from './Header.module.css';
 export const Header = () => {
   return (
     <div className={styles.headerContainer}>
-      <nav>
-        <Navigation />
+      <nav className={styles.nav}>
+        <Navigation navLinks={'/'} />
       </nav>
     </div>
   );
